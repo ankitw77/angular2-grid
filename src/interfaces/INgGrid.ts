@@ -20,6 +20,8 @@ export interface NgGridConfig {
 	prefer_new?: boolean;
 	zoom_on_drag?: boolean;
 	limit_to_screen?: boolean;
+	enable_collision_detection? : boolean;
+	adjust_on_window_resize? : boolean;
 }
 
 export interface NgGridItemConfig {
