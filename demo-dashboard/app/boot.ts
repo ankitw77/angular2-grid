@@ -12,6 +12,6 @@ import { NgGridModule } from 'angular2-grid';
 })
 class AppModule { }
 
-enableProdMode();
+//enableProdMode();
 const platform = platformBrowserDynamic();
 platform.bootstrapModule(AppModule);

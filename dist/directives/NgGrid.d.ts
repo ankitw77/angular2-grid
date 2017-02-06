@@ -1,4 +1,4 @@
-
+/// <reference types="core-js" />
 import { ElementRef, Renderer, EventEmitter, ComponentFactoryResolver, KeyValueDiffers, OnInit, OnDestroy, DoCheck, ViewContainerRef } from '@angular/core';
 import { NgGridConfig, NgGridItemEvent, NgGridItemPosition, NgGridItemSize } from '../interfaces/INgGrid';
 import { NgGridItem } from './NgGridItem';

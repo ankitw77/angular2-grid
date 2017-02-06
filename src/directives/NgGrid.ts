@@ -533,24 +533,23 @@ export class NgGrid implements OnInit, DoCheck, OnDestroy {
 
 	private _resizeStart(e: any): void {
 		if (this.resizeEnable) {
+
 			var mousePos = this._getMousePosition(e);
 			var item = this._getItemFromPosition(mousePos);
 
-			if (!item) {
-				return;
+			if (item) {
+				item.startMoving();
+				this._resizingItem = item;
+				this._resizeDirection = item.canResize(e);
+				this._removeFromGrid(item);
+				this._createPlaceholder(item);
+				this.isResizing = true;
+				this._resizeReady = false;
+				this.onResizeStart.emit(item);
+				item.onResizeStartEvent();
 			}
-
-			item.startMoving();
-			this._resizingItem = item;
-			this._resizeDirection = item.canResize(e);
-			this._removeFromGrid(item);
-			this._createPlaceholder(item);
-			this.isResizing = true;
-			this._resizeReady = false;
-
-			this.onResizeStart.emit(item);
-			item.onResizeStartEvent();
 		}
+		
 	}
 
 	private _dragStart(e: any): void {
@@ -1307,7 +1306,7 @@ export class NgGrid implements OnInit, DoCheck, OnDestroy {
 
 	private _getItemFromPosition(position: NgGridRawPosition): NgGridItem {
 		for (let item of this._items) {
-			
+
 			if (item) {
 				const size: NgGridItemDimensions = item.getDimensions();
 				const pos: NgGridRawPosition = item.getPosition();
@@ -1317,7 +1316,7 @@ export class NgGrid implements OnInit, DoCheck, OnDestroy {
 					return item;
 				}
 			}
-			
+
 		}
 
 		return null;

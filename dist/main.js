@@ -1,10 +1,7 @@
-"use strict";
-function __export(m) {
-    for (var p in m) if (!exports.hasOwnProperty(p)) exports[p] = m[p];
-}
-__export(require('./directives/NgGrid'));
-__export(require('./directives/NgGridItem'));
-__export(require('./components/NgGridPlaceholder'));
-__export(require('./modules/NgGrid.module'));
+export * from './directives/NgGrid';
+export * from './directives/NgGridItem';
+export * from './components/NgGridPlaceholder';
+export * from './interfaces/INgGrid';
+export * from './modules/NgGrid.module';
 
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIm1haW4udHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLGlCQUFjLHFCQUFxQixDQUFDLEVBQUE7QUFDcEMsaUJBQWMseUJBQXlCLENBQUMsRUFBQTtBQUN4QyxpQkFBYyxnQ0FBZ0MsQ0FBQyxFQUFBO0FBRS9DLGlCQUFjLHlCQUF5QixDQUFDLEVBQUEiLCJmaWxlIjoibWFpbi5qcyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCAqIGZyb20gJy4vZGlyZWN0aXZlcy9OZ0dyaWQnO1xyXG5leHBvcnQgKiBmcm9tICcuL2RpcmVjdGl2ZXMvTmdHcmlkSXRlbSc7XHJcbmV4cG9ydCAqIGZyb20gJy4vY29tcG9uZW50cy9OZ0dyaWRQbGFjZWhvbGRlcic7XHJcbmV4cG9ydCAqIGZyb20gJy4vaW50ZXJmYWNlcy9JTmdHcmlkJztcclxuZXhwb3J0ICogZnJvbSAnLi9tb2R1bGVzL05nR3JpZC5tb2R1bGUnOyJdLCJzb3VyY2VSb290IjoiL3NvdXJjZS8ifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9tYWluLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLGNBQWMscUJBQXFCLENBQUM7QUFDcEMsY0FBYyx5QkFBeUIsQ0FBQztBQUN4QyxjQUFjLGdDQUFnQyxDQUFDO0FBQy9DLGNBQWMsc0JBQXNCLENBQUM7QUFDckMsY0FBYyx5QkFBeUIsQ0FBQyIsImZpbGUiOiJtYWluLmpzIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0ICogZnJvbSAnLi9kaXJlY3RpdmVzL05nR3JpZCc7XHJcbmV4cG9ydCAqIGZyb20gJy4vZGlyZWN0aXZlcy9OZ0dyaWRJdGVtJztcclxuZXhwb3J0ICogZnJvbSAnLi9jb21wb25lbnRzL05nR3JpZFBsYWNlaG9sZGVyJztcclxuZXhwb3J0ICogZnJvbSAnLi9pbnRlcmZhY2VzL0lOZ0dyaWQnO1xyXG5leHBvcnQgKiBmcm9tICcuL21vZHVsZXMvTmdHcmlkLm1vZHVsZSc7Il0sInNvdXJjZVJvb3QiOiIvc291cmNlLyJ9

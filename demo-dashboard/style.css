@@ -1,5 +1,5 @@
 .grid {
-	background-color: #efefef;
+	background-color: #f5f2f2;
 	width: 100%;
 	min-height: 750px;
 }
@@ -22,7 +22,7 @@
 }
 
 .grid-placeholder {
-	background-color: rgba(0, 0, 0, 0.3);
+	background-color: rgba(0, 100, 200, 0.3);
 }
 
 @media (max-width: 767px) {
