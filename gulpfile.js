@@ -52,28 +52,6 @@ gulp.task('ts', function() {
     ]);
 });
 
-gulp.task('npm-build', function() {
-    var tsResult = gulp.src(PATHS.src.ts)
-        .pipe(sourcemaps.init())
-        .pipe(tsProject());
-
-    return merge([
-        tsResult.js.pipe(sourcemaps.write()).pipe(gulp.dest('dist')),
-        tsResult.dts.pipe(gulp.dest('dist'))
-    ]);
-});
-
-gulp.task('remove-corejs-reference', function() {
-    replace({
-        regex: '/// <reference types="core-js" />',
-        replacement: '',
-        paths: ['./dist'],
-        recursive: true,
-        silent: false
-    });
-});
-
-
 gulp.task('test-clean-build', function(done) {
     return del(['test/*.js'], done)
 });
