@@ -72,12 +72,30 @@ export class NgGridPlaceholder implements OnInit {
 			case 'left':
 			default:
 				this._renderer.setElementStyle(this._ngEl.nativeElement, 'transform', 'translate(' + x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-webkit-transform', 'translate(' + x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-moz-transform', 'translate(' + x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-o-transform', 'translate(' + x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-ms-transform', 'translate(' + x + 'px, ' + y + 'px)');
+
+
 				break;
 			case 'right':
 				this._renderer.setElementStyle(this._ngEl.nativeElement, 'transform', 'translate(' + -x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-webkit-transform', 'translate(' + -x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-moz-transform', 'translate(' + -x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-o-transform', 'translate(' + -x + 'px, ' + y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-ms-transform', 'translate(' + -x + 'px, ' + y + 'px)');
+
+
 				break;
 			case 'down':
 				this._renderer.setElementStyle(this._ngEl.nativeElement, 'transform', 'translate(' + x + 'px, ' + -y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-webkit-transform', 'translate(' + x + 'px, ' + -y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-moz-transform', 'translate(' + x + 'px, ' + -y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-o-transform', 'translate(' + x + 'px, ' + -y + 'px)');
+				this._renderer.setElementStyle(this._ngEl.nativeElement, '-ms-transform', 'translate(' + x + 'px, ' + -y + 'px)');
+
+
 				break;
 		}
 	}

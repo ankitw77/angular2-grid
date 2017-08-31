@@ -489,9 +489,17 @@ export var NgGrid = (function () {
     };
     NgGrid.prototype._zoomOut = function () {
         this._renderer.setElementStyle(this._ngEl.nativeElement, 'transform', 'scale(0.5, 0.5)');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-webkit-transform', 'scale(0.5, 0.5)');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-moz-transform', 'scale(0.5, 0.5)');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-o-transform', 'scale(0.5, 0.5)');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-ms-transform', 'scale(0.5, 0.5)');
     };
     NgGrid.prototype._resetZoom = function () {
         this._renderer.setElementStyle(this._ngEl.nativeElement, 'transform', '');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-webkit-transform', '');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-moz-transform', '');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-o-transform', '');
+        this._renderer.setElementStyle(this._ngEl.nativeElement, '-ms-transform', '');
     };
     NgGrid.prototype._drag = function (e) {
         if (this.isDragging) {

@@ -549,7 +549,7 @@ export class NgGrid implements OnInit, DoCheck, OnDestroy {
 				item.onResizeStartEvent();
 			}
 		}
-		
+
 	}
 
 	private _dragStart(e: any): void {
@@ -586,10 +586,20 @@ export class NgGrid implements OnInit, DoCheck, OnDestroy {
 
 	private _zoomOut(): void {
 		this._renderer.setElementStyle(this._ngEl.nativeElement, 'transform', 'scale(0.5, 0.5)');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-webkit-transform', 'scale(0.5, 0.5)');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-moz-transform', 'scale(0.5, 0.5)');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-o-transform', 'scale(0.5, 0.5)');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-ms-transform', 'scale(0.5, 0.5)');
+
 	}
 
 	private _resetZoom(): void {
 		this._renderer.setElementStyle(this._ngEl.nativeElement, 'transform', '');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-webkit-transform', '');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-moz-transform', '');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-o-transform', '');
+		this._renderer.setElementStyle(this._ngEl.nativeElement, '-ms-transform', '');
+
 	}
 
 	private _drag(e: any): void {

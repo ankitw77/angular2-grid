@@ -1,43 +1,140 @@
 {
-  "name": "angular2-grid",
-  "version": "2.0.1",
-  "description": "A grid-based drag/drop/resize directive plugin for Angular 2",
-  "module": "main.js",
-  "main": "bundles/NgGrid.umd.min.js",
-  "typings": "main.d.ts",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BTMorton/angular2-grid.git"
+  "_args": [
+    [
+      {
+        "raw": "angular2-grid@git+https://github.com/ankitw77/angular2-grid-dist.git",
+        "scope": null,
+        "escapedName": "angular2-grid",
+        "name": "angular2-grid",
+        "rawSpec": "git+https://github.com/ankitw77/angular2-grid-dist.git",
+        "spec": "git+https://github.com/ankitw77/angular2-grid-dist.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:ankitw77/angular2-grid-dist.git",
+          "sshUrl": "git+ssh://git@github.com/ankitw77/angular2-grid-dist.git",
+          "httpsUrl": "git+https://github.com/ankitw77/angular2-grid-dist.git",
+          "gitUrl": "git://github.com/ankitw77/angular2-grid-dist.git",
+          "shortcut": "github:ankitw77/angular2-grid-dist",
+          "directUrl": "https://raw.githubusercontent.com/ankitw77/angular2-grid-dist/master/package.json"
+        }
+      },
+      "/Library/WebServer/myWorkflow_UI"
+    ]
+  ],
+  "_from": "git+https://github.com/ankitw77/angular2-grid-dist.git",
+  "_id": "angular2-grid@2.0.1",
+  "_inCache": true,
+  "_location": "/angular2-grid",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular2-grid@git+https://github.com/ankitw77/angular2-grid-dist.git",
+    "scope": null,
+    "escapedName": "angular2-grid",
+    "name": "angular2-grid",
+    "rawSpec": "git+https://github.com/ankitw77/angular2-grid-dist.git",
+    "spec": "git+https://github.com/ankitw77/angular2-grid-dist.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:ankitw77/angular2-grid-dist.git",
+      "sshUrl": "git+ssh://git@github.com/ankitw77/angular2-grid-dist.git",
+      "httpsUrl": "git+https://github.com/ankitw77/angular2-grid-dist.git",
+      "gitUrl": "git://github.com/ankitw77/angular2-grid-dist.git",
+      "shortcut": "github:ankitw77/angular2-grid-dist",
+      "directUrl": "https://raw.githubusercontent.com/ankitw77/angular2-grid-dist/master/package.json"
+    }
   },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ankitw77/angular2-grid-dist.git#917826028b77a0c13307b07537ba0a298f07f0dc",
+  "_shasum": "a000d6760dfd8449685b2e5872b221f319a4e2f0",
+  "_shrinkwrap": null,
+  "_spec": "angular2-grid@git+https://github.com/ankitw77/angular2-grid-dist.git",
+  "_where": "/Library/WebServer/myWorkflow_UI",
+  "author": {
+    "name": "Ben Morton",
+    "email": "ben.morton91@gmail.com",
+    "url": "http://bmorton.co.uk/"
+  },
+  "bugs": {
+    "url": "https://github.com/BTMorton/angular2-grid/issues"
+  },
+  "contributors": [
+    {
+      "name": "Martin Sikora",
+      "url": "https://github.com/martinsik"
+    },
+    {
+      "name": "Daniel Pastor de la Fuenta",
+      "url": "https://github.com/aebsubis"
+    },
+    {
+      "name": "Frederik Schubert",
+      "url": "https://github.com/frederikschubert"
+    },
+    {
+      "name": "Matthew de Nobrega",
+      "url": "https://github.com/matthewdenobrega"
+    },
+    {
+      "name": "Alex",
+      "url": "https://github.com/lifecoderua"
+    },
+    {
+      "name": "pocmanu",
+      "url": "https://github.com/pocmanu"
+    },
+    {
+      "name": "Chris Morabito",
+      "url": "https://github.com/morabitowoolpert"
+    },
+    {
+      "name": "Carlos Esteban Lopez Jaramillo",
+      "url": "https://github.com/Luchillo"
+    },
+    {
+      "name": "Niklas Berg",
+      "url": "https://github.com/nkholski"
+    },
+    {
+      "name": "Wouter",
+      "url": "https://github.com/wuhkuh"
+    },
+    {
+      "name": "Brian Ellis",
+      "url": "https://github.com/OnlyAGhost"
+    }
+  ],
+  "dependencies": {},
+  "description": "A grid-based drag/drop/resize directive plugin for Angular 2",
+  "devDependencies": {},
+  "gitHead": "917826028b77a0c13307b07537ba0a298f07f0dc",
+  "homepage": "https://github.com/BTMorton/angular2-grid",
   "keywords": [
     "angular",
     "angular2",
     "grid",
     "web-components"
   ],
-  "author": "Ben Morton <ben.morton91@gmail.com> (http://bmorton.co.uk/)",
-  "contributors": [
-    "Martin Sikora (https://github.com/martinsik)",
-    "Daniel Pastor de la Fuenta (https://github.com/aebsubis)",
-    "Frederik Schubert (https://github.com/frederikschubert)",
-    "Matthew de Nobrega (https://github.com/matthewdenobrega)",
-    "Alex (https://github.com/lifecoderua)",
-    "pocmanu (https://github.com/pocmanu)",
-    "Chris Morabito (https://github.com/morabitowoolpert)",
-    "Carlos Esteban Lopez Jaramillo (https://github.com/Luchillo)",
-    "Niklas Berg (https://github.com/nkholski)",
-    "Wouter (https://github.com/wuhkuh)",
-    "Brian Ellis (https://github.com/OnlyAGhost)"
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BTMorton/angular2-grid/issues"
-  },
-  "homepage": "https://github.com/BTMorton/angular2-grid",
+  "main": "bundles/NgGrid.umd.min.js",
+  "module": "main.js",
+  "name": "angular2-grid",
+  "optionalDependencies": {},
   "peerDependencies": {
     "@angular/core": "^2.4.4",
     "reflect-metadata": "^0.1.8",
     "rxjs": "^5.0.1",
     "zone.js": "^0.7.2"
-  }
+  },
+  "readme": "[![GitHub version](http://img.shields.io/github/release/BTMorton%2Fangular2-grid.svg)](https://github.com/BTMorton/angular2-grid)\n[![npm version](http://img.shields.io/npm/v/angular2-grid.svg)](https://www.npmjs.com/package/angular2-grid)\n[![bower version](http://img.shields.io/bower/v/angular2-grid.svg)](https://libraries.io/bower/angular2-grid)\n[![license](http://img.shields.io/github/license/BTMorton%2Fangular2-grid.svg)](https://github.com/BTMorton/angular2-grid/blob/master/LICENSE)\n[![open issues](http://img.shields.io/github/issues/BTMorton%2Fangular2-grid.svg)](https://github.com/BTMorton/angular2-grid/issues)\n\n# Angular 2 Grid\nAngular 2 grid is a drag/drop/resize grid-based plugin directive for [Angular 2](http://angular.io).\nThe demo included in this repo follows the [Angular 2 quick start](https://angular.io/docs/js/latest/quickstart.html)\n\n#### Setup\n----------\n\nTo use the Angular 2 Grid system, simply run `npm install angular2-grid` and then include the `NgGridModule` in your project module imports (see Example for more details).\n\nIf you want to help with development or try the demo, it's less simple, but not hard. First you'll need to install [Node](http://nodejs.org) and check out a copy of the repo. Then run:\n\n```shell\n$ npm install\n$ typings install\n$ gulp build\n```\n\nThis will give you a fully compiled version of the demo that you can run using the HTTP server of your choice.\n\nYou can also use `gulp watch` to compile the demo and have gulp watch for any changes.\n\nNOTE: By default Angular 2 and System.js are not listed as actual dependencies, but as peer dependencies, so that npm doesn't install them on systems that just require the install file. If they are not installed, this could cause gulp to break. To fix this, run `npm install angular2 systemjs` and rerun the build command.\n\n#### Config\n-----------\n\nTo use this in your own application, all you need to do is add the `[ng-grid]` attribute to your container element and `[ng-grid-item]` to each item. You can use this in conjunction with `NgFor` to create a truly dynamic angular grid.\n\nTo configure the grid with your own options, it is as easy as adding them as the attribute value. The defaults for the grid are:\n\n```javascript\n{\n    'margins': [10],            //  The size of the margins of each item. Supports up to four values in the same way as CSS margins. Can be updated using setMargins()\n    'draggable': true,          //  Whether the items can be dragged. Can be updated using enableDrag()/disableDrag()\n    'resizable': true,          //  Whether the items can be resized. Can be updated using enableResize()/disableResize()\n    'max_cols': 0,              //  The maximum number of columns allowed. Set to 0 for infinite. Cannot be used with max_rows\n    'max_rows': 0,              //  The maximum number of rows allowed. Set to 0 for infinite. Cannot be used with max_cols\n    'visible_cols': 0,          //  The number of columns shown on screen when auto_resize is set to true. Set to 0 to not auto_resize. Will be overriden by max_cols\n    'visible_rows': 0,          //  The number of rows shown on screen when auto_resize is set to true. Set to 0 to not auto_resize. Will be overriden by max_rows\n    'min_cols': 0,              //  The minimum number of columns allowed. Can be any number greater than or equal to 1.\n    'min_rows': 0,              //  The minimum number of rows allowed. Can be any number greater than or equal to 1.\n    'col_width': 250,           //  The width of each column\n    'row_height': 250,          //  The height of each row\n    'cascade': 'up',            //  The direction to cascade grid items ('up', 'right', 'down', 'left')\n    'min_width': 100,           //  The minimum width of an item. If greater than col_width, this will update the value of min_cols\n    'min_height': 100,          //  The minimum height of an item. If greater than row_height, this will update the value of min_rows\n    'fix_to_grid': false,       //  Fix all item movements to the grid\n    'auto_style': true,         //  Automatically add required element styles at run-time\n    'auto_resize': false,       //  Automatically set col_width/row_height so that max_cols/max_rows fills the screen. Only has effect is max_cols or max_rows is set\n    'maintain_ratio': false,    //  Attempts to maintain aspect ratio based on the colWidth/rowHeight values set in the config\n    'prefer_new': false,        //  When adding new items, will use that items position ahead of existing items\n    'limit_to_screen': false,   //  When resizing the screen, with this true and auto_resize false, the grid will re-arrange to fit the screen size. Please note, at present this only works with cascade direction up.\n}\n```\n\nThe defaults for the grid item are:\n\n```javascript\n{\n    'col': 1,               //  The start column for the item\n    'row': 1,               //  The start row for the item\n    'sizex': 1,             //  The start width in terms of columns for the item\n    'sizey': 1,             //  The start height in terms of rows for the item\n    'dragHandle': null,     //  The selector to be used for the drag handle. If null, uses the whole item\n    'resizeHandle': null,   //  The selector to be used for the resize handle. If null, uses 'borderSize' pixels from the right for horizontal resize,\n                            //    'borderSize' pixels from the bottom for vertical, and the square in the corner bottom-right for both\n    'borderSize': 15,\n    'fixed': false,         //  If the grid item should be cascaded or not. If yes, manual movement is required\n    'draggable': true,      //  If the grid item can be dragged. If this or the global setting is set to false, the item cannot be dragged.\n    'resizable': true,      //  If the grid item can be resized. If this or the global setting is set to false, the item cannot be resized.\n    'payload': null,        //  An optional custom payload (string/number/object) to be used to identify the item for serialization\n    'maxCols': 0,           //  The maximum number of columns for a particular item. This value will only override the value from the grid (if set) if it is smaller\n    'minCols': 0,           //  The minimum number of columns for a particular item. This value will only override the value from the grid if larger\n    'maxRows': 0,           //  The maximum number of rows for a particular item. This value will only override the value from the grid (if set) if it is smaller\n    'minRows': 0,           //  The minimum number of rows for a particular item. This value will only override the value from the grid if larger\n    'minWidth': 0,          //  The minimum width of a particular item. This value will override the value from the grid, as well as the minimum columns if the resulting size is larger\n    'minHeight': 0,         //  The minimum height of a particular item. This value will override the value from the grid, as well as the minimum rows if the resulting size is larger\n}\n```\n\n#### Event Handling\n-------------------\n\nBoth the `NgGrid` and `NgGridItem` throw events when an item is moved or resized. The grid has the following:\n\n```javascript\nonDragStart(item)     //  When an item starts being dragged. Returns reference to corresponding NgGridItem\nonDrag(item)          //  When an item moves while dragging. Returns reference to corresponding NgGridItem\nonDragStop(item)      //  When an item stops being dragged. Returns reference to corresponding NgGridItem\nonResizeStart(item)   //  When an item starts being resized. Returns reference to corresponding NgGridItem\nonResize(item)        //  When an item is resized. Returns reference to corresponding NgGridItem\nonResizeStop(item)    //  When an item stops being resized. Returns reference to corresponding NgGridItem\nonItemChange(items)   //  When any item stops being dragged or resized. Returns an array of NgGridItemEvents in the order in which each item was added to the grid\n```\n\nThe individual items will also throw the following events:\n\n```javascript\nonDragStart()     //  When the item starts being dragged.\nonDrag()          //  When the item moves while dragging.\nonDragStop()      //  When the item stops being dragged.\nonDragAny()       //  When the item starts/stops/is being dragged.\nonResizeStart()   //  When the item starts being resized.\nonResize()        //  When the item is resized.\nonResizeStop()    //  When the item stops being resized.\nonResizeAny()     //  When the item starts/stops/is being resized.\nonChangeStart()   //  When the item starts being dragged or resized.\nonChange()        //  When the item is dragged or resized.\nonChangeStop()    //  When the item stops being dragged or resized.\nonChangeAny()     //  When the item starts/stops/is being dragged or resized.\nonItemChange()    //  When either the item's grid size or position is changed.\n```\n\nEach event will also provide the following object to any callback functions:\n\n```javascript\ninterface NgGridItemEvent {\n    payload: any,   //  The item's optional custom payload (string/number/object) to be used to identify the item for serialization\n    col: number,    //  The item's column position within the grid\n    row: number,    //  The item's row position within the grid\n    sizex: number,  //  The item's column size within the grid\n    sizey: number,  //  The item's row size within the grid\n    width: number,  //  The item's raw width value\n    height: number, //  The item's raw height value\n    left: number,   //  The item's offset left value\n    top: number     //  The item's offset top value\n}\n```\n\n#### Styling\n------------\n\nThere are three elements that can be styled with angular2-grid, the grid itself `.grid`, the items `.grid-item` and the placeholder `.placeholder`. The demo includes some basic styling in NgGrid.css which you can include in your app's `styleUrls` property. It also includes some @media queries styles to handle responsiveness on smaller screens. This simple force the boxes to full width and puts them inline in their original order. This is optional functionality and does not need to be included. In order for correct functionality, the required styles are added by the classes themselves at run-time:\n\n```css\n.grid {\n    position: relative;\n}\n\n.grid-item {\n    position: absolute;\n}\n\n.grid-item.moving {\n    z-index: z-index + 1;\n}\n\n.placeholder {\n    position: absolute;\n}\n```\n\nYou can prevent these styles being automatically added by setting the value of `'auto_size'` to be `false`. You will then need to ensure that they are correctly incorporated into your user styles instead.\n\nNOTE: The grid system sets the values `width, height, left, top` in CSS to move and resize the elements. This cannot be disabled.\n\n#### Example\n------------\n\nThe `NgGrid` and `NgGridItem` can be configured by binding directly to the directive. The `NgGridItem` supports two-way binding so you don't need to bind to any of the above events. The `NgGridItemChange` event emits under the same conditions as `onChangeStop`. The only config values that will change are `col`, `row`, `sizex` and `sizey`; the rest of your configuration will persist. You can then use these values for serialization of the grid. By binding the configuration this way, you are able to update the values on the fly. Here is an example template of the grid with two-way item bindings:\n\n```html\n<div [ngGrid]=\"{'resizeable': false, 'margins': [5, 10]}\">\n    <div *ngFor=\"let box of boxes\" [(ngGridItem)]=\"box.config\">\n        <div class=\"title\">{{box.title}}</div>\n        <p>{{box.text}}</p>\n    </div>\n</div>\n```\n\nIn order to include the relevant files, you will need to import the `NgGridModule` to your app and add them to the `@NgModule` imports. This can be achieved by adding:\n\n```typescript\nimport { NgGridModule } from 'angular2-grid';\n```\n\nto your typescript imports, and ensuring that your `@NgModule` annotation looks similar to the following:\n\n```typescript\n@NgModule({\n    ...,\n    imports: [\n        ...,\n        NgGridModule,\n        ...\n    ],\n    ...\n})\n```\n\nAs of the Angular 2 Release Candidate you will now need to have the following in your System.js configuration, assuming that you are following the same format as the [Angular 2 Quick Start](https://angular.io/docs/ts/latest/quickstart.html):\n\n```\nmap: {\n    'angular2-grid': 'node_modules/angular2-grid/dist/js'\n}\n\npackages: {\n    'angular2-grid': { main: 'main.js',  defaultExtension: 'js' }\n}\n```\n\nAlternatively, you can use the bundled version by setting the `map` value to `'node_modules/angular2-grid/dist/bundles'` and the `main` value within packages to `NgGrid.min.js`.\n\nTo see a working typescript example project, check the [dashboard demo folder in the source](https://github.com/BTMorton/angular2-grid/tree/master/demo-dashboard) or the [main demo repository](https://github.com/BTMorton/angular2-grid-demo).\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BTMorton/angular2-grid.git"
+  },
+  "typings": "main.d.ts",
+  "version": "2.0.1"
 }
